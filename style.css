@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#heading {
+    margin-left: 550px;
+    margin-top: 20px;
+    color: red;
+}
+.box {
+    height: 530px;
+    width: 400px;
+    border: 5px solid rgb(105, 4, 236);
+    margin-top: 20px;
+    margin-left: 450px;
+    padding: 30px;
+}
+.circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: chartreuse;
+    border: 3px solid black;
+    position: absolute;
+    animation-name: bounce;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    margin-left: 580px;
+
+}
+@keyframes bounce {
+       0% {
+        top: 70%;
+       }
+       50% {
+        top: 20%;
+       }
+       100% {
+        top: 70%;
+       }
+}
+
